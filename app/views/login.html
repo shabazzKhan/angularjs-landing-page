@@ -1,0 +1,129 @@
+
+
+<div class="landing container" ng-controller="LoginCtrl">
+
+    <section  class="page page1" id="page1" >
+
+    <div class="header" style="">
+      <div class="navbar navbar-default" id="bootstrap-overrides" role="navigation" style="position:fixed;right:15px;left:0;z-index:999;">
+        <div class="container" id ="override-width" >
+          <div class="navbar-header"  >
+
+            <button type="button" style="width:38px;" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#js-navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+            <a class="navbar-brand"  style="padding-left:30px;">Cube Medical Billing</a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="js-navbar-collapse" style="float:right;">
+
+            <ul class="nav navbar-nav" >
+              <li  ng-click="scrollToBottom('middlePage');"><a href="">About</a></li>
+              <li  ng-click="scrollToBottom('bottomPage');"><a href="">Contact</a></li>
+              <li  ng-click="scrollToBottom('page1');"><a href="">Log In</a></li>
+            </ul>
+          </div>
+        </div>
+      </div> 
+    </div> 
+        <div ng-if="!isSubmit">
+            <form name="registerFom">
+                <div>
+                    <input class="center-block" required type="email" ng-model="Login.loginEmail" name="registerFom.email" placeholder="Email">
+                </div>
+                <div >
+                    <input style="margin-top:0;" class="center-block" required type="password" ng-model="Login.loginPassword" name="registerFom.password" placeholder="Password">
+                </div>
+                <div>
+                    <button ng-click="loginFunc()" ng-disabled="registerFom.$invalid" class="btn btn-primary center-block">
+                        SUBMIT</button>
+                </div>
+            </form>
+        </div>
+
+
+
+    </section>
+
+   
+    <!--page3 starts-->
+    <section id="middlePage" class="page page3">
+        <div class="row">
+            <div class="col-sm-4 col-xs-12" id="my-content">
+                <img src="images/3.jpg" class=" maxHeight img-responsive center-block" alt="image not found">
+            </div>
+
+            <div class="col-sm-8 col-xs-12 pinkColor minHeight">
+                <h2> make your life easier by using CMB</h2>
+
+                <div class="singleLine">
+                    <img src="images/smile.png" class="img-responsive" alt="image not found">
+                    <h3>WHAT IS CMB ?</h3>
+                </div>
+                <p>Cube Medical Billing(CMB) is an online portal that is used for medical billing, patient history, doctor's scheduler and pateint reports.</p>
+
+                <div class="singleLine">
+                    <img src="images/help.png" class="img-responsive" alt="image not found">
+                    <h3>WHO USES CMB</h3>
+                </div>
+                <p>It is used by medical doctors to manage all the apointments, reports and billings of patients. Patients can also login and view their reports.</p>
+
+                <div class="singleLine">
+                    <img src="images/glass.png" class="img-responsive" alt="image not found">
+                    <h3>BEAUTIFUL & SIMPLE</h3>
+                </div>
+                <p>Its very easy to use and manage. CMB is super organized and instantly searchable.</p>
+
+                <div class="singleLine">
+                    <img src="images/mobiles.png" class="img-responsive" alt="image not found">
+                    <h3>GOES EVERYWHERE</h3>
+                </div>
+                <p>CMB will dandily amble alongside you everywhere. Mobiles, Desktops, Tablets.It works everywhere.All the time.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!--page3 ends-->
+
+    <!--page4 starts-->
+    <div id="bottomPage" class="page page4 container">
+    
+        <div  class="row">
+            <div  class="col-sm-8 col-xs-12 blueColor minHeight">
+                <div class="singleLine">
+                    <div>
+                        <h1>CONTACT US ?</h1>
+                    </div>
+                    
+                </div>
+                <p>
+                    Register now and become a Tastemaker. Help us make Cube Medical Billing the best it can be. Your feedback will shape the future of Cube Medical Billing itself and all the while you will enjoy all the awesome services it has to offer.
+                </p>
+                <h3>Contact Numbers:</h3>
+               <p>Phone: (000) 555 1212<br>
+                Mobile: (000) 555 0100<br>
+                    E-mail: Cmb@gmail.com
+               </p>
+               <span>&copy; Copyright 2016 CMB.</span>
+
+            </div>
+
+            <div class="col-sm-4 col-xs-12" id="my-content">
+                <img src="images/3.jpg" class="maxHeight img-responsive center-block" alt="image not found">
+            </div>
+
+        </div>
+        
+
+     
+    </div>
+    <!--page4 ends-->
+
+ 
+
+
+</div>

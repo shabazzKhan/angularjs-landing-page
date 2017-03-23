@@ -1,0 +1,312 @@
+/*
+
+body
+ {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.header,
+.marketing,
+.footer {
+
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header {
+
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.header h3 {
+
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+
+.footer {
+
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+
+@media (min-width: 768px) {
+  .container
+   {
+    max-width: 730px;
+  }
+
+}
+
+.container-narrow > hr
+ {
+  margin: 30px 0;
+}
+
+
+.jumbotron 
+{
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+
+.jumbotron .btn 
+
+{
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+.marketing 
+{
+  margin: 40px 0;
+}
+
+.marketing p + h4
+ {
+  margin-top: 28px;
+}
+
+
+@media screen and (min-width: 768px)
+ {
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .header 
+  {
+    margin-bottom: 30px;
+  }
+
+  .jumbotron 
+  {
+    border-bottom: 0;
+  }
+}
+
+*/
+.RedColor {
+  color: yellow;
+}
+@font-face {
+  font-family: 'latoRegular';
+  src: url("../fonts/Lato-Reg.ttf");
+}
+@font-face {
+  font-family: 'latoHair';
+  src: url("../fonts/Lato-Hai.ttf");
+}
+@font-face {
+  font-family: 'latoLight';
+  src: url("../fonts/Lato-Lig.ttf");
+}
+@font-face {
+  font-family: 'neutraDisp';
+  src: url("../fonts/Neutra.otf");
+}
+.page,
+.container {
+  overflow-x: hidden;
+}
+p {
+  font-family: 'latoRegular';
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #1abc9c;
+  font-family: 'latoHair';
+  font-weight: bold;
+}
+body {
+  font-family: 'latoRegular';
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+.container {
+  margin: 0px;
+  padding: 0px;
+}
+.page {
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+.landing {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+.landing h1,
+.landing h2,
+.landing h3,
+.landing h4,
+.landing h5,
+.landing h6 {
+  color: #fff;
+}
+.landing .themeColor {
+  color: #1abc9c;
+}
+.landing .yellow {
+  color: #FFA500;
+}
+.landing .navbar-default {
+  border: none;
+}
+.landing .navbar-default .navbar-nav > .active > a,
+.landing .navbar-default .navbar-nav > .active > a:hover,
+.landing .navbar-default .navbar-nav > .active > a:focus {
+  background-color: rgba(231, 231, 231, 0.04);
+}
+.landing .navbar-default .navbar-collapse,
+.landing .navbar-default .navbar-form {
+  border-color: transparent;
+}
+.landing #bootstrap-overrides {
+  border-radius: 0px;
+}
+.landing .page1 {
+  min-height: 700px;
+  background: url("../images/Main.jpg") no-repeat;
+  background-size: cover;
+}
+.landing .page1 button {
+  width: 200px;
+  background-color: rgba(0, 0, 0, 0);
+  border-color: #000;
+  color: #000;
+  font-size: 20px;
+  padding: 7px;
+  margin-bottom: 5px;
+}
+.landing .page1 input {
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-style: solid;
+  width: 350px;
+  margin-bottom: 20px;
+  margin-top: 280px;
+  color: #000;
+  border-color: #fff;
+  padding: 12px;
+}
+.landing .page3 {
+  height: auto;
+}
+.landing .page3 h2,
+.landing .page3 h4,
+.landing .page3 h5 {
+  padding-top: 2px;
+  padding-left: 5px;
+}
+.landing .page3 h3 {
+  padding-top: 13px;
+  font-size: 30px;
+  color: #000;
+}
+.landing .page3 p {
+  font-size: 17px;
+  padding-top: 2px;
+  padding-left: 35px;
+}
+.landing .page3 .maxHeight {
+  max-height: 700px;
+}
+.landing .page3 .minHeight {
+  min-height: 700px;
+}
+.landing .page3 .pinkColor {
+  margin: 0px;
+  padding: 30px;
+  background-color: #C0A890;
+}
+.landing .page3 .pinkColor img {
+  heigth: 30px;
+  width: 30px;
+  padding-bottom: 12px;
+}
+.landing .page3 .singleLine * {
+  display: inline-block;
+}
+.landing .page3 .singleLine h3 {
+  padding-left: 5px;
+}
+.landing .page4 {
+  height: auto;
+}
+.landing .page4 h1 {
+  font-size: 55px;
+  font-family: 'neutraDisp';
+}
+.landing .page4 p {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  font-size: 17px;
+}
+.landing .page4 .maxHeight {
+  max-height: 548px;
+}
+.landing .page4 .minHeight {
+  min-height: 550px;
+}
+.landing .page4 .blueColor {
+  margin: 0px;
+  padding: 40px;
+  background-color: #C0A890;
+}
+.landing .page4 button {
+  width: 410px;
+  background-color: rgba(0, 0, 0, 0);
+  border-color: #ffffff;
+  font-size: 27px;
+  padding: 10px;
+}
+.landing .page4 .singleLine > div {
+  display: inline-block;
+  vertical-align: middle;
+  padding-top: 10px;
+}
+.landing .page4 .singleLine .paddingLeft {
+  padding-left: 25px;
+}
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .landing #my-content {
+    display: none;
+  }
+  .landing .page4 button {
+    width: 100%;
+  }
+  .landing .page3 h3 {
+    font-size: 20px;
+  }
+  .landing .page3 img {
+    heigth: 20px;
+    width: 20px;
+    padding-bottom: 10px;
+  }
+  .landing .page3 p {
+    padding-left: 0px;
+  }
+  .landing .page1 input,
+  .landing button {
+    width: 80%;
+  }
+}
