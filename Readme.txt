@@ -2,9 +2,9 @@ Getting up and running
 
 Ensure you have a basic understanding of NodeJS and npm
 
-1. Clone this repo from https://github.com/LunarDevelopment/Landing-Page-Template
+1. Clone this repo from https://github.com/shabazzkhan/angularjs-landing-page.git
 
-2. git clone https://github.com/LunarDevelopment/Landing-Page-Template.git MAKE-UP-A-FILE-NAME HERE && cd FILE-NAME-YOU-INVENTED
+2. git clone https://github.com/shabazzkhan/angularjs-landing-page.git MAKE-UP-A-FILE-NAME HERE && cd FILE-NAME-YOU-INVENTED
 
 3. Run npm install
 
